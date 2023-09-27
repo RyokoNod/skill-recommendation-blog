@@ -1,0 +1,9 @@
+Flask
+flask_restx
+gunicorn
+pandas
+pypdf
+sentence-transformers
+werkzeug
+torch
+torchvision
