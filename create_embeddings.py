@@ -15,7 +15,7 @@ with open(skill_list_file, 'r') as f:
     for l in lines:
         master_skills_list.append(l.replace("\n", ""))
 
-# create the embeddings and write is as a pickle file
+# create the embeddings and write it as a pickle file
 master_skill_embs = model.encode(master_skills_list)
 with open(skill_emb_file, 'wb') as f:
     pickle.dump(master_skill_embs, f)

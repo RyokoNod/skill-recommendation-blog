@@ -114,7 +114,7 @@ def match_snippets(snippets, master_phrase_embs, master_phrase_list, top_k):
 class SkillsFromCV(Resource):
     @api.marshal_with(response_fields, as_list=True)
     @api.expect(file_upload_parser)
-    def post(self, top_k=5, write_parse_results=False):
+    def post(self, top_k=5):
         '''
         Get a set of suggestions for skills from a CV
         '''
