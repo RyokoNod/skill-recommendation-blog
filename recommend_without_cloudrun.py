@@ -57,8 +57,8 @@ def match_snippets(snippets, master_phrase_embs, master_phrase_list, top_k):
                                you used for it should be declared as a global variable
     :param master_phrase_list: A list of the raw strings you want to match with snippets
     :param top_k:              How many suggested matches you want per snippet
-    :return:                   A pandas dataframe containing the matches from master_phrase_embs,
-                               the cosine similarity of the match, and the snippet that corresponds to the match
+    :return:                   A pandas dataframe containing the matches from master_phrase_embs and
+                               the cosine similarity of the match
     '''
 
 
