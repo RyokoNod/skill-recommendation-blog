@@ -1,5 +1,7 @@
 # Making an API out of a Hugging Face model
 
+<img src="https://github.com/RyokoNod/skill-recommendation-blog/blob/main/images/thumbnail.jpg" width="300">
+
 This is a repository linked to the blog posts written by [Datamarinier](https://datamarinier.be/) and [Huapii](https://huapii.com/). 
 The posts were written by data scientists from both Datamarinier and Huapii, the main code was provided from Huapii, and the infrastructure on Google Cloud Platform was designed by Datamarinier.
 
